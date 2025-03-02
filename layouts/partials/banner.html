@@ -1,5 +1,6 @@
 <!-- Banner -->
-<section class="banner {{ .style }}">
+<section class="banner {{ .style }}" style="margin: 0px;" id="home">
+    
     <div class="content">
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}

@@ -1,12 +1,12 @@
 ####################### Banner #########################
 style: "style3 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Hello, I'm Kai-Chen Tung."
+title : "I'm Kai-Chen. Welcome!"
 subtitle: |
   A Graduate Student Researcher at UC Davis
 content : |
-  Description of myself ...
+  I am passionate about leveraging deep learning with GPGPU acceleration for scientific visualization in HPC environments to efficiently handle large-scale data. My background in computer graphics and game development has strengthened my software engineering skills, particularly in system architecture, design patterns, and collaborative development.
 button:
   label : "Get Started"
-  link : "#main_content"
+  link : "#experience"
 image : "images/my_photo.jpg"
 

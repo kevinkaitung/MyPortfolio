@@ -1,0 +1,74 @@
+<head>
+    <style>
+        /* Reset default margin/padding */
+        /** {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }*/
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.8);
+            /* Semi-transparent background */
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            height: 64px; /* to align with the padding of banner page*/
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        /* Logo */
+        .logo {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Navigation Links */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+
+        .nav-links a:hover {
+            background: #555;
+            border-radius: 5px;
+        }
+
+        /* Make sure the banner is not hidden under the fixed navbar */
+        .banner {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">Kai-Chen Tung</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/1xfT5IWvhqfu_n5KXzn1N7IIFAS-0WWr2/view?usp=sharing">Resume</a></li>
+    </ul>
+</nav>
