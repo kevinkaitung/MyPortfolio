@@ -201,15 +201,13 @@
                         </h3>
                         <p>Tech stack: C++/CUDA/SYCL</p>
                     </header>
-                    <ul>
-                        <li>Developed modular and extensible progressive compression pipeline using object-oriented
-                            principle (i.e., polymorphism),
-                            seamlessly integrating neural and wavelet transform-based (e.g., SPERR) compressors</li>
-                        <li>Accelerated neural compressor sampling and training to complete within minutes with CUDA and
-                            tiny-cuda-nn library</li>
-                        <li>Attained cross-platform application on NVIDIA and Intel GPU by integrating CUDA and SYCL as
-                            training backends</li>
-                    </ul>
+                    <p>
+                        Traditional neural compressors lack user-defined error tolerance for controlling data loss. 
+                        This project enhances neural compression by integrating the wavelet transform-based compressor, SPERR, 
+                        and applying progressive residual error compression in multiple rounds to achieve error-bounded results. 
+                        Additionally, cross-platform compatibility was enabled on NVIDIA and Intel GPUs 
+                        by incorporating CUDA and SYCL as training backends.
+                    </p>
 
                     <hr />
 
@@ -219,15 +217,11 @@
                         </h3>
                         <p>Tech stack: C++/SYCL/Libtorch</p>
                     </header>
-                    <ul>
-                        <li>Achieved 2x faster MLP inference with SYCL programming compared to native PyTorch on Intel
-                            Arc A770 GPU</li>
-                        <li>Engaged with Intel to benchmark network inference and training between Intel Arc A770 and
-                            Data Center GPU based on
-                            their tiny-dpcpp-nn library, analyzing execution time and resource utilization</li>
-                        <li>Built complete C++/SYCL training pipeline by extending tiny-dpcpp-nn library with Libtorch
-                            frontend</li>
-                    </ul>
+                    <p>
+                        SYCL has emerged as a promising programming model for GPGPU computing across various hardware vendors. 
+                        This project focuses on optimizing neural network inference, analyzing key performance factors, 
+                        and laying the groundwork for our ongoing efforts on neural compression running on Intel platforms.
+                    </p>
 
                     <hr />
 
@@ -238,11 +232,11 @@
                                 <h3>Volume Rendering System</h3>
                                 <p>Tech stack: C++/OpenGL/GLSL/Real-time Rendering</p>
                             </header>
-                            <ul>
-                                <li>Rendered CT/MRI images in real-time using ray casting and GLSL programming</li>
-                                <li>Created interactive 1D/2D transfer function UI with glut to select and view
-                                    emphasized features in data</li>
-                            </ul>
+                            <p>
+                                This project utilized ray casting in GLSL for real-time CT/MRI rendering. 
+                                I developed a 1D/2D transfer function UI with GLUT, enabling users to explore key features. 
+                                I also managed multiple system modules to ensure seamless integration and performance.
+                            </p>
                         </div>
 
                         
@@ -262,15 +256,11 @@
                                 <h3>3D Multiplayer Online Game</h3>
                                 <p>Tech stack: C#/Unity</p>
                             </header>
-                            <ul>
-                                <li>Developed multiplayer party game supporting up to 8 players with real-time chat,
-                                    leveraging Photon Unity Networking to
-                                    manage gameplay and communication data exchange</li>
-                                <li>Designed extensible system with object-oriented design pattern, singleton design
-                                    pattern, and state machine</li>
-                                <li>Led six-person team to win the Excellent Work Award in Undergraduate Student Final
-                                    Project Competition among 27 teams</li>
-                            </ul>
+                            <p>
+                                Built with Unity and Photon Unity Networking, this game supports real-time voice and text chat, enhancing player collaboration. 
+                                The networking system efficiently handles communication for up to 8 players, 
+                                while design patterns like singleton and state machine ensure an extensible and scalable architecture.
+                            </p>
                         </div>
 
                         
@@ -287,13 +277,10 @@
                         <h3>Bookkeeping Web System Backend</h3>
                         <p>Tech stack: Python Flask/MongoDB</p>
                     </header>
-                    <ul>
-                        <li>Led three-person team to implement server-side application by designing 27 RESTful APIs with
-                            Python Flask and
-                            establishing database with MongoDB; passed load testing with 500 active users</li>
-                        <li>Followed full software development process (e.g., Waterfall) with complete documentation
-                        </li>
-                    </ul>
+                    <p>
+                        As a software engineering course final project, we built a web backend using Python Flask and MongoDB, implementing 27 RESTful APIs. 
+                        We followed the Waterfall development process, including thorough documentation and test case development, ensuring a structured and reliable implementation.
+                    </p>
                     
                     <hr />
 
@@ -304,9 +291,10 @@
                                 <h3>Physics Simulation System</h3>
                                 <p>Tech stack: C++/OpenGL</p>
                             </header>
-                            <ul>
-                                <li>Simulated objects’ linear motion (with gravity and other natural force effects) and collision detection with bounding volume method and spatial partition optimization</li>
-                            </ul>
+                            <p>
+                                This small computer graphics application simulates linear motion with gravity and natural forces. 
+                                It implements collision detection using bounding volume methods and optimizes performance with spatial partitioning techniques.
+                            </p>
                         </div>
 
                         
